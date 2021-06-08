@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="219dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/tLogin"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="@+id/tLogin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <EditText
+        android:id="@+id/tSenha"
+        android:layout_width="279dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/hintSenha"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/btLogin"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btLogin"
+        app:layout_constraintTop_toBottomOf="@+id/tLogin" />
+
+    <EditText
+        android:id="@+id/tLogin"
+        android:layout_width="281dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/login"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/tSenha"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tSenha"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="277dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+
+        android:backgroundTint="#00f"
+        android:text="@string/login"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tSenha" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left"
+        app:constraint_referenced_ids="btLogin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="anterior">Previous</string>
+    <string name="labelUsuario">User</string>
+    <string name="labelSenha">Password</string>
+    <string name="botaoLogar">Login</string>
+    <string name="botaoSalvar">Save</string>
+    <string name="hintLogin">Type your login</string>
+    <string name="hintSenha">Type your password</string>
+    <string name="txtAtencao">Warning!</string>
+    <string name="btnVerificaRecuperacao">Check Recovery</string>
+    <string name="txtPreeTdsCampos">Fill in all the fields!</string>
+    <string name="txtEntendiClicAqui">Got it, click here !!</string>
+    <string name="login">Login</string>
+    <string name="salvar">To save</string>
+    <string name="digite_o_nome_do_aluno">Enter Student Name</string>
+    <string name="login_ou_senha_com_erro">login or password with error</string>
+    <string name="tente_novamente">Try again</string>
+    <string name="txtDesejaSair">Do you really want to leave?</string>
+    <string name="txtConfirmaExclusao">Do you confirm the deletion of the Student register?</string>
+    <string name="txtConfirmaRealizarSunstitutiva">Do you confirm the need to take the substitute test?</string>
+    <string name="txtSim">Yes</string>
+    <string name="txtCancela">Cancel</string>
+    <string name="status">Status</string>
+    <string name="nota_final">Final note</string>
+    <string name="nota1">Grade 1</string>
+    <string name="nota2">Grade 2</string>
+    <string name="nomeAluno">Student</string>
+    <string name="matricula">Registration</string>
+    <string name="digite_a_matricula_do_aluno">Enter Student Enrollment</string>
+    <string name="digite_a_N1_do_aluno">"Enter the Student's N1"</string>
+    <string name="digite_a_N2_do_aluno">"Enter the Student's N2"</string>
+    <string name="substitutiva">Substitute Note</string>
+    <string name="titulo_substitutiva">SUBSTITUTE NOTE</string>
+</resources>

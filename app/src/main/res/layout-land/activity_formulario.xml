@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.pro.luis.appGestaoDeEnsino.FormularioActivity">
+
+    <EditText
+        android:id="@+id/etMatricula"
+        android:layout_width="576dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/digite_o_nome_do_aluno"
+        android:inputType="textCapSentences"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNomeAluno" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/qual_a_idade_do_pet"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNota1" />
+
+
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="182dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#00f"
+        android:text="@string/salvar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/spIdadeCao"
+        app:layout_constraintTop_toBottomOf="@+id/etNota1" />
+
+    <EditText
+        android:id="@+id/etNota1"
+        android:layout_width="576dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="@string/digite_seu_endereco"
+        android:inputType="textCapSentences"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:maxLength="14"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etMatricula" />
+
+    <EditText
+        android:id="@+id/etNomeAluno"
+        android:layout_width="575dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/digite_o_nome_do_pet"
+        android:inputType="textCapSentences"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

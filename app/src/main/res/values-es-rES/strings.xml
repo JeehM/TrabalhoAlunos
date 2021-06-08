@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Ajustes</string>
+    <string name="anterior">Anterior</string>
+    <string name="labelUsuario">Usuario</string>
+    <string name="labelSenha">Contraseña</string>
+    <string name="botaoLogar">Accesso</string>
+    <string name="botaoSalvar">Ahorrar</string>
+    <string name="hintLogin">Escriba su nombre de usuario</string>
+    <string name="hintSenha">Escribe tu contraseña</string>
+    <string name="txtAtencao">¡Aviso!</string>
+    <string name="btnVerificaRecuperacao">Comprobar recuperación</string>
+    <string name="txtPreeTdsCampos">¡Complete todos los campos!</string>
+    <string name="txtEntendiClicAqui">¡Entendido, haga clic aquí!</string>
+    <string name="login">Iniciar sessión</string>
+    <string name="salvar">Ahorrar</string>
+    <string name="digite_o_nome_do_aluno">Ingrese el nombre del aluno:</string>
+    <string name="login_ou_senha_com_erro">Inicio de sesión o contraseña con error</string>
+    <string name="tente_novamente">Inténtalo de nuevo</string>
+    <string name="txtDesejaSair">¿De verdad quieres salir de la aplicación para mascotas?</string>
+    <string name="txtConfirmaExclusao">¿Confirma la eliminación del registro de estudiante?</string>
+    <string name="txtConfirmaRealizarSunstitutiva">¿Confirmas la necesidad de realizar el examen sustituto?</string>
+    <string name="txtSim">Sí</string>
+    <string name="txtCancela">Cancelar</string>
+    <string name="status">Estado</string>
+    <string name="nota_final">Nota final</string>
+    <string name="nota1">Grado 1</string>
+    <string name="nota2">Grado 2</string>
+    <string name="nomeAluno">Alumno</string>
+    <string name="matricula">Registro</string>
+    <string name="digite_a_matricula_do_aluno">Ingrese la inscripción de estudiantes:</string>
+    <string name="digite_a_N1_do_aluno">Ingrese el Grade 1 del estudiante:</string>
+    <string name="digite_a_N2_do_aluno">Ingrese el Grade 2 del estudiante:</string>
+    <string name="substitutiva">Nota sustitutiva</string>
+    <string name="titulo_substitutiva">NOTA DE SUSTITUCIÓN</string>
+</resources>

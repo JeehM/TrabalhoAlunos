@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#95B174"
+    android:layout_height="700dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ListView
+        android:id="@+id/lvAlunoRecuperacao"
+        android:layout_width="match_parent"
+        android:background="#6C6C68"
+        android:layout_height="514dp"></ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VERIFIQUE AS QUANTIDADE"
+        android:textAlignment="center"
+        android:textColor="#101010"
+        android:textStyle="bold">
+
+    </TextView>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="55dp"
+    android:layout_margin="10dp"
+    android:background="#95B174"
+
+    >
+
+
+    <Button
+        android:id="@+id/btnQtdRecuperacao"
+        android:layout_width="162dp"
+        android:layout_height="57dp"
+        android:background="#BA0909"
+        android:layout_weight="1"
+        android:text="Recuperação" />
+    <Button
+        android:id="@+id/btnQtdReprovado"
+        android:layout_width="152dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="70dp"
+        android:layout_weight="1"
+        android:text="Reprovados" />
+</LinearLayout>
+
+
+</LinearLayout>

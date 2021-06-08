@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="nomeAluno">"Student's":</string>
+    <string name="matricula">Registration:</string>
+    <string name="nota1">Grade 1:</string>
+    <string name="nota2">Grade 2:</string>
+    <string name="digite_o_nome_do_aluno">`Enter Student Name`</string>
+    <string name="salvar">To save</string>
+    <string name="digite_a_matricula_do_aluno">Enter Student Enrollment:</string>
+    <string name="digite_a_N1_do_aluno">"Enter the Student's N1":</string>
+    <string name="digite_a_N2_do_aluno">"Enter the Student's N2":</string>
+    <string name="qual_a_idade_do_pet">How old is the Pet:</string>
+    <string name="txtAtencao">Warning</string>
+    <string name="btSair">Exit</string>
+    <string name="txtPreeTdsCampos">Fill in all the fields!!!</string>
+    <string name="txtEntendiClicAqui">Got it, click here !!</string>
+    <string name="login_ou_senha_com_erro">login or password with error</string>
+    <string name="txtDesejaSair">Do you really want to leave the Pet App?</string>
+    <string name="tente_novamente">Try again</string>
+    <string name="txtSim">Yea</string>
+    <string name="txtCancela">Cancel</string>
+    <string name="txtConfirmaExclusao">"Confirms the deletion of the Dog's registration"</string>
+    <string name="status">Status</string>
+    <string name="nota_final">Final grade:</string>
+
+</resources>

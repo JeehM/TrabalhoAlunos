@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Gestão de Ensino</string>
+    <string name="action_settings">Configurações</string>
+    <string name="anterior">Anterior</string>
+    <string name="labelUsuario">Usuário</string>
+    <string name="labelSenha">Senha</string>
+    <string name="botaoLogar">Login</string>
+    <string name="botaoSalvar">Save</string>
+    <string name="hintLogin">Digite seu usuário</string>
+    <string name="hintSenha">Digite sua senha</string>
+    <string name="txtAtencao">Atenção!</string>
+    <string name="btnVerificaRecuperacao">Verificar Recuperação!</string>
+    <string name="txtPreeTdsCampos">Preencha todos os campos!</string>
+    <string name="txtEntendiClicAqui">Entendi Clique Aqui!</string>
+    <string name="login">Iniciar Sessão</string>
+    <string name="salvar">Salvar</string>
+    <string name="digite_o_nome_do_aluno">Digite o nome do aluno</string>
+    <string name="login_ou_senha_com_erro">Login ou senha com erro</string>
+    <string name="tente_novamente">Tente novamente</string>
+    <string name="txtDesejaSair">Deseja realmente sair?</string>
+    <string name="txtConfirmaExclusao">Confirma a exclusão do registro do Aluno?</string>
+    <string name="txtConfirmaRealizarSunstitutiva">Confirma a necessidade de fazer a prova substitutiva?</string>
+    <string name="txtSim">Sim</string>
+    <string name="txtCancela">Cancelar</string>
+    <string name="status">Status</string>
+    <string name="nota_final">Nota final</string>
+    <string name="nota1">Nota 1</string>
+    <string name="nota2">Nota 2</string>
+    <string name="nomeAluno">Aluno</string>
+    <string name="matricula">Matrícula</string>
+    <string name="digite_a_matricula_do_aluno">Matrícula</string>
+    <string name="digite_a_N1_do_aluno">Digite a nota 1 do aluno</string>
+    <string name="digite_a_N2_do_aluno">Digite a nota 2 do aluno</string>
+    <string name="substitutiva">Nota substitutiva</string>
+    <string name="titulo_substitutiva">SUBSTITUTIVA</string>
+</resources>

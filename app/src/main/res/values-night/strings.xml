@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nota1" />
+    <string name="matricula" />
+    <string name="nomeAluno" />
+    <string name="digite_a_matricula_do_aluno">matricula</string>
+    <string name="digite_a_N1_do_aluno">Digite a nota 1</string>
+    <string name="digite_a_N2_do_aluno">Digite a nota 2</string>
+    <string name="substitutiva">substitutiva</string>
+    <string name="titulo_substitutiva">SUBSTITUTIVA</string>
+</resources>

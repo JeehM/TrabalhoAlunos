@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Configurações</string>
+    <string name="login">Logar</string>
+    <string name="nomeAluno">Aluno:</string>
+    <string name="matricula">Matrícula:</string>
+    <string name="nota1">Nota 1:</string>
+    <string name="nota2">Nota 2:</string>
+
+    <string name="hintSenha">Digite sua senha:</string>
+    <string name="txtAtencao">Atenção!!</string>
+    <string name="txtPreeTdsCampos">Preencha todos os campos!!</string>
+    <string name="txtEntendiClicAqui">Entendi, clique aqui!!</string>
+    <string name="salvar">Salvar</string>
+    <string name="digite_o_nome_do_aluno">Digite o nome do Aluno:</string>
+    <string name="digite_a_matricula_do_aluno">Digite a Matricula do Aluno:</string>
+    <string name="digite_a_N1_do_aluno">Digite a N1 do Aluno</string>
+    <string name="digite_a_N2_do_aluno">Digite a N2 do Aluno</string>
+    <string name="qual_a_idade_do_pet">Qual a idade do Cão:</string>
+    <string name="btSair">Sair</string>
+    <string name="login_ou_senha_com_erro">Login ou Senha com erro</string>
+    <string name="txtDesejaSair">Deseja realmente sair do App Pet ?</string>
+    <string name="tente_novamente">Tente novamente</string>
+    <string name="txtSim">Sim</string>
+    <string name="txtCancela">Cancelar</string>
+    <string name="txtConfirmaExclusao">Confirma a exclusão do registro do Cachorro</string>
+    <string name="status">Status:</string>
+    <string name="nota_final">Nota Final:</string>
+
+
+</resources>

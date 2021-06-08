@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:padding="1dp"
+    android:id="@+id/llFundoLista"
+    android:layout_width="match_parent"
+    android:layout_height="280dp">
+
+    <LinearLayout
+        android:layout_width="97dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+
+            android:layout_width="84dp"
+            android:layout_height="110dp"
+            android:src="@drawable/image" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/nomeAluno"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/matricula"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/nota1"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/nota2"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/status"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/nota_final"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/substitutiva"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvListaNomeAluno"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:textColor="#051EAA"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tvListaMatricula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Matrícula"
+            android:textColor="#051EAA"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+
+        <TextView
+            android:id="@+id/tvListaNota1"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="nota n1"
+            android:textColor="#051EAA"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvListaNota2"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="nota n2"
+            android:textColor="#051EAA"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvListaStatus"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/status"
+            android:textColor="#051EAA"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvListaNotaFinal"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/nota_final"
+            android:textColor="#051EAA"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvListaSunstitutiva"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/substitutiva"
+            android:textColor="#051EAA"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
